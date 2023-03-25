@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightblue;
+    padding: 1rem;
+    text-align: center;
+}
+
+button {
+    background-color: darkblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+button:hover {
+    background-color: blue;
+}
+document.getElementById("click-me").addEventListener("click", function () {
+    alert("Hello, you clicked the button!");
+});
